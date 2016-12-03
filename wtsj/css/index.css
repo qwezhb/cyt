@@ -1,0 +1,50 @@
+*{ margin:0; padding:0;}
+html,body{ width:100%; height:100%;}
+a{ text-decoration: none;}
+ul{ list-style-type: none;}
+i,em{font-style: normal;}
+img{ border: 0 none;}
+.clearfix{ *zoom: 1;}
+.clearfix:after{ content: "."; display: block; clear: both; visibility: hidden; height: 0;}
+html{ font-size: 625%;}
+body{ max-width: 640px; min-width: 320px; background: #eeeeee; font-family: "微软雅黑"; color: #373737; margin: 0 auto; font-size: 0.2rem;}
+
+/*导航栏目录*/
+.globallink{ width: 100%; height: 1rem; background: #41485e; font-size: 0.1rem; line-height: 1rem; }
+.nowpos{ color: #fff; float: left;}
+.menulogo{ position: absolute; display: block; padding-top: 0.1rem; right: 0.2rem;}
+.globalcontent{ font-size: 0.3rem; border: 1px #EEEEEE solid; width: 35%; height:90%; position: absolute; right: 0; top: 1rem; overflow: auto; background: #41485E;}
+.menutreefat,.menutreeson{ white-space: nowrap; line-height: 0.6rem; color: #a5aebd;}
+.menutreefat{ padding-left: 0.3rem;}
+.menutreeson{ padding-left: 0.45rem;}
+.menutreeson a{ color: #a5aebd;}
+.select-page{width: 100%; height: 0.6rem ; background:#d7dbdf;}
+.select-page li{float: left; line-height: 0.6rem; margin-left: 0.05rem;}
+.select-page ul{width: 400%;}
+.buttonvalue input{background:#10a7ff; color: #FFFFFF; display: inline-block; width: 50px; height: 25px; border: none;}
+a:focus {outline: none;}
+            /* 通用表格显示 */
+	        table, th, td {font: 12px Arial,Helvetica,sans-serif,'宋体';margin: 0;}
+	        table{border-spacing: 0;border-collapse: collapse;}
+	        .datatable {width: 100%;border-style: none;background-color: #fff;margin-bottom: 20px;text-align: left; margin-top: 20px;}
+	        .datatable th, .datatable td { padding: 5px;line-height: 30px;text-align: center;}
+	        .datatable thead th {background-color: #eee;margin: 0;text-align:center;border-top: 1px solid #cfcfcf;border-bottom: 1px solid #cfcfcf;font-weight: 500}
+	        .datatable tbody td {background-color: #fff;border-bottom: 1px solid #ddd;table-layout:fixed;word-break:break-all;font-weight: 400}
+	        .datatable tbody tr.evenrow td {background-color: #f4f4f4;}
+	        .datatable tfoot td {background-color: #fafafa;text-align: right;border-bottom: 1px solid #cfcfcf;}
+	            /*表格分页列表*/
+	        .datatable td.paging a {border: 1px solid #eee; color: #444; margin: 4px; padding: 2px 7px; text-decoration: none; text-align:center;}
+	            /*表格分页当前页*/
+	        .datatable td.paging a.current {background: #eee; border: 1px solid #CFCFCF; color: #444; font-weight: bold;}
+	        .datatable td.paging a.current{border: 0;cursor: auto;background:none}
+.export{margin: 20% 0 0 25%; height: 30px;}
+.export li{float: left; width: 80px; height: 25px; background: #10A7FF;text-align: center; line-height: 25px; color: #FFFFFF; margin-left:0.05rem;}
+.left-nav{width: 20%; height:100%; background:#f8f8f8; float: left; border:#acaaab 1px solid;}
+.left-nav li{margin-top: 0.1rem;}
+.tablea{float: left;}
+.content{width: 100%; height:7.5rem;}
+.deal li{float: left; width: 1.5rem; height: 0.3rem; background: #efebef; text-align: center;line-height: 0.3rem; color: gray; border-radius: 0.rem; margin: 0.05rem 0 0 0.1rem;}
+.deal .current{background: #FFFFFF; color: #10A7FF;}
+.table-right{width: 78%; float: left;}
+.deal{height: 0.35rem;}
+.ui-loader{display: none;}
